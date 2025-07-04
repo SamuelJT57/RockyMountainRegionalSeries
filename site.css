@@ -1,0 +1,37 @@
+body {
+    background-color: white;
+    font-size: 12px;
+    font-family: Stainless-Regular, Helvetica, Arial, sans-serif;
+    color: #000000;
+    line-height: 1.7em;
+}
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: white;
+  }
+
+    tr:nth-child(even) {
+    background-color: #d7d7d7;
+    color: rgb(0, 0, 0);
+  }
+  tr:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+
+   th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    background-color: rgb(37, 37, 205);
+    color: white;
+  }
+  
+  td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
