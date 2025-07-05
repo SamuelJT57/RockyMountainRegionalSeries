@@ -4,6 +4,7 @@
 }
 
 body {
+  background-image: url(background.png);
     background-color: white;
     font-size: 12px;
     font-family: mainFont, Helvetica, Arial, sans-serif;
@@ -19,6 +20,8 @@ body {
     border-collapse: collapse;
     width: 50%;
     background-color: white;
+    padding: 8px;
+    text-align: center;
   }
 
     tr:nth-child(even) {
@@ -36,12 +39,14 @@ body {
     padding: 8px;
     background-color: rgb(37, 37, 205);
     color: white;
+    text-align: center;
   }
   
   td {
     border: 1px solid black;
     text-align: left;
     padding: 8px;
+    text-align: center;
   }
 
 a{
@@ -53,6 +58,10 @@ h1 {
 }
 
 .logo{
-  height: 50%;
-    width: 50%;
+  height: 30%;
+    width: 30%;
+}
+
+.lap-leader{
+  width: 80%;
 }
