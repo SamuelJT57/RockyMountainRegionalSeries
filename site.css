@@ -57,8 +57,8 @@ h1 {
 }
 
 .logo{
-  height: 30%;
-    width: 30%;
+  height: 10%;
+    width: 10%;
 }
 
 .lap-leader{
@@ -70,14 +70,14 @@ h1 {
 }
 
 .topnav {
-  background-color: #ffa41c;
+  background-color: #000000;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
